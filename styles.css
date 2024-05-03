@@ -1,0 +1,223 @@
+/*
+Primary-
+#96B8CB
+#769BAF
+#376B87
+#174F6D
+#0B3B55
+
+Secondary Color(1)
+
+#FFE4B8
+#FFDEA8
+#D4A250
+#AC751D
+#86570C
+
+bg- color: #555555
+*/
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+ 
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #FFFFFF;
+
+}
+
+#logo{
+    width: 200px;
+}
+a{
+    text-decoration: none;
+}
+
+main{
+    margin: 50px auto;
+    width: 800px;
+    background-color: #FFFFFF;
+   
+}
+
+.header-main{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin: 20px 0;
+}
+h3{
+    margin: 20px 0;
+}
+h4{
+    margin: 20px 0;
+}
+p{
+    margin: 5px 0;
+}
+header{
+    background-image: url(evolution-final.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+   
+    min-height: 200px;
+    background-color: #232323;
+  
+}
+header h1{
+    color: #FFFFFF;
+}
+
+header img, header h1{
+    display: inline;
+}
+
+nav{
+    background-color: #000000;
+}
+
+nav li:hover{
+    background-color: #3c3c3c;
+}
+
+nav ul{ /*Fix later for responsiveness*/
+    list-style-type: none;
+    display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+nav li{
+   
+    padding: 20px;
+    text-align: center;
+}
+
+nav a{
+
+    color: #FFFFFF;
+
+}
+
+main img{
+    margin: 20px 20%;
+    width: 500px;
+}
+
+main video{
+    margin: 20px 18%;
+}
+
+
+#pctable thead{
+    background-color: #555555;
+}
+
+#pctable th{
+    color: #FFFFFF;
+}
+#pctable th,td{
+    
+    padding: 20px 5px;
+  
+}
+
+#pctable{
+
+    border-collapse: collapse;
+}
+
+#pctable tbody{
+    background-color: #d6d6d6;
+}
+
+#pctable tr:nth-child(even){
+    background-color: #e7e7e7;
+}
+
+.gallery{
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 300px 300px 300px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+    
+}
+.gallery img{
+    
+    width: 200px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 3px 5px 8px black;
+    transition: 0.5s;
+}
+
+.gallery img:hover{
+
+    transform: scale(1.2);
+    transition: 0.5s;
+    box-shadow: none;
+    border: 8px #000000 solid;
+
+}
+
+footer{
+    color: #FFFFFF;
+    padding: 1em;
+    background-color: #000000;
+
+}
+
+
+#description{
+    text-align: center;
+}
+
+#form{
+
+    text-align: center;
+    margin: 0 auto;
+   
+    width: 500px;
+    padding: 30px 30px;
+    background-color: rgb(240, 240, 240);
+}
+
+
+form input, button{
+   
+    display: block;
+    margin: 20px auto;
+    
+    width: 400px;
+    height: 50px;
+  
+}
+
+form textarea{
+    width: 400px;
+}
+
+form button{
+    border: none;
+    color: #FFFFFF;
+    background-color: #174F6D;
+    cursor: pointer;
+}
+
